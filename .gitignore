@@ -1,0 +1,8 @@
+# Môi trường ảo
+venv/
+*.pyc
+__pycache__/
+
+# Các file hệ điều hành
+.DS_Store
+Thumbs.db
