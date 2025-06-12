@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Trang Chủ
+{% endblock %}
+
+{% block content %}
+    <h1>Chào mừng đến với trang web của tôi!</h1>
+    <p>Đây là một trang web đơn giản được xây dựng bằng Python và Flask.</p>
+    <p>Hãy khám phá trang <a href="{{ url_for('about') }}">Giới thiệu</a> để biết thêm chi tiết.</p>
+{% endblock %}
